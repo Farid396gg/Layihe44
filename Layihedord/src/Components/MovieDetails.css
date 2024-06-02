@@ -1,0 +1,34 @@
+/* Components/MovieDetails.css */
+.movie-details {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .movie-details img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .movie-details p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .view-trailer-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-trailer-button:hover {
+    background-color: #0056b3;
+  }
+  

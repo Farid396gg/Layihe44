@@ -1,0 +1,82 @@
+/*./Components/ListManager.css*/
+.list-manager {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  width: 300px;
+  position: fixed;
+  top: 200px;
+  right: 70px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.list-manager h3 {
+  margin-top: 0;
+}
+
+.list-manager input[type="text"] {
+  width: calc(100% - 10px);
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-left: -2px;
+  margin-bottom: 10px;
+}
+
+.list-manager button[type="submit"] {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.list-manager a.view-list-link {
+  display: block;
+  padding: 7px 0;
+  font-size: 16px;
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.list-manager a.view-list-link:hover {
+  color: #0056b3;
+}
+
+.list-manager ul {
+  margin: 0;
+  padding: 0;
+}
+
+.list-manager li {
+  list-style-type: none;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-manager li button {
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.list-manager li button:hover {
+  background-color: #c82333;
+}
